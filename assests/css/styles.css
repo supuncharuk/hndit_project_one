@@ -1,4 +1,4 @@
-/* head_section */
+/* header_section */
 .header{
     min-height: 100vh;
     width: 100%;
@@ -49,4 +49,39 @@
     border: 1px solid #f44336 !important;
     background: #f44336;
     transition: 1s;
+}
+
+
+/* Course Section */
+
+.course{
+    width: 80%;
+    padding-top: 100px;
+}
+
+.course h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.course p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.course_card{
+    background-color: #fff3f3 !important;
+    border: none !important;
+    transition: 0.5s;
+}
+
+.course_card:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.course_card .card-body{
+    /* flex: none; */
 }
