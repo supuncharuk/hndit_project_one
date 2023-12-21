@@ -517,6 +517,10 @@ section {
 /*-----------------------------------------------------------------
 # Count
 ---------------------------------------------------------------*/
+.counter-section{
+  margin-bottom: 10px;
+}
+
 .counter-section i{
   display:block;
   margin:0 0 10px
@@ -600,8 +604,8 @@ section {
   padding: 40px 30px;
   width: 100%;
   /* border: 1px solid #eef0ef; */
-  border-radius: 20px;
-  box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
 }
 
 .why-us .icon-boxes .icon-box:hover{
