@@ -344,12 +344,11 @@
   $(document).ready(function() {
     var counted = 0;
     $(window).scroll(function() {
-
       var oTop = $('#counter_section').offset().top - window.innerHeight;
       if (counted == 0 && $(window).scrollTop() > oTop) {
         $('.counter').each(function() {
           var $this = $(this),
-            countTo = $this.attr('data-count');
+          countTo = $this.attr('data-count');
           $({
             countNum: $this.text()
           }).animate({
@@ -357,7 +356,6 @@
             },
 
             {
-
               duration: 1500,
               easing: 'swing',
               step: function() {
@@ -365,14 +363,11 @@
               },
               complete: function() {
                 $this.text(this.countNum);
-                //alert('finished');
               }
-
             });
         });
         counted = 1;
       }
-
     });
   });
 
